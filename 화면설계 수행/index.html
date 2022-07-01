@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS 적용 레이아웃 - 김승욱 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- 웹페이지 상단 -->
+        <header>
+            <!-- 언어 선택 -->
+            <div class="select-lang">
+                <select name="job" class="selectbox">
+                    <option value="">한국어</option>
+                    <option value="학생">english</option>
+                    <option value="회사원">中文</option>
+                    <option value="기타">日本語</option>
+                </select>
+            </div>
+            <!-- 로고 -->
+            언어 선택, 네이버 로고
+            <div class="logo">
+                <a href="https://www.naver.com" target="_blank" title="김승욱 홈페이지">
+                    <img src="image/NAVER_LOGO.png" class="image" alt="네이버 로고 입니다">
+                </a>
+            </div>
+        </header>
+        <!-- 로그인 부분 -->
+        <section class="login-wrap">
+            <div class="login-id-wrap"><input type="text" placeholder="아이디"></div>
+            <div class="login-pw-wrap"><input type="text" placeholder="비밀번호"></div>
+            <div class="login-btn-wrap"><button>로그인</button></div>
+            <div class="login-stay-wrap">
+                <span><input type="checkbox" name="stay-btn" value="stay">
+                    로그인 상태 상태유지</span>
+                <span>IP 보안</span>
+            </div>
+        </section>
+        <!-- 간편 로그인 -->
+        <section class="easy-login-wrap">
+            <h1> 김승욱 간편 로그인 </h1>
+            <span>
+                <a href="https://nid.naver.com/nidlogin.login?mode=qrcode" target="_blank" 
+                title="QR코드 로그인">QR코드 로그인</a></span>
+            <span><a href="https://nid.naver.com/nidlogin.login?mode=number" target="_blank" 
+                title="일회용 번호 로그인">일회용 번호 로그인</a></span>
+            <!-- ID, PW 찾기 및 회원 가입 -->
+            <section class="easy-login-wrap">
+                <span><a href="https://nid.naver.com/user2/help/pwInquiry?lang=ko_KR">비밀번호 찾기</a></span>
+                <span><a href="https://nid.naver.com/user2/help/idInquiry?lang=ko_KR">김승욱 아이디 찾기</a></span>
+                <span><a href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR">회원 가입</a></span>
+            </section>
+            <!-- 저작권 부분 -->
+            <footer>
+                <div class="copyright-wrap">
+                    <span> <img src="image/NAVER_LOGO.png" width="80px"> Copyright @ 김승욱 Crop, All Rights Reserved</span>
+                </div>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
