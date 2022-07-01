@@ -1,0 +1,29 @@
+body {
+    background-color: #fff;
+}
+select {
+    width: 85px;
+    height: 25px;
+    outline: none;
+    background: #fff;
+    border: 1px solid #999;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+/* 언어 설정 */
+.select-lang {
+    text-align: right;
+    padding-right: 10px;
+}
+/* 김승욱 로고 설정 */
+.image {
+    height: 32px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
