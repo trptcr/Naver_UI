@@ -86,3 +86,33 @@ a {
 .ip-check {
     display: none;
 }
+/* 간편 로그인 */
+.easy-login.wrap {
+    height: 90px;
+    margin: 0px 10px 15px 10px;
+}
+/* 간편 로그인 텍스트 */
+.easy-login {
+    font-size: 20px;
+}
+/* qr & 일회용 로그인 박스 */
+.easy-login-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* qr 코드 로그인 */
+.qr-login {
+    float: left;
+    border: 1px solid #03c75a;
+    background-color: #fff;
+    margin: 0px 3px 0px 0px;
+    line-height: 55px;
+}
+/* 일회용 번호 로그인 */
+.onetime-login {
+    float: right;
+    border: 1px solid #03c75a;
+    background-color: #fff;
+    margin: 0px 3px 0px 0px;
+    line-height: 55px;
+}
