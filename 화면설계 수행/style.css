@@ -84,7 +84,9 @@ a {
 }
 /* ip 보안 표시 */
 .ip-check {
-    display: none;
+    margin-right: 7px;
+    float: right;
+    display: block;
 }
 /* 간편 로그인 */
 .easy-login.wrap {
@@ -115,4 +117,42 @@ a {
     background-color: #fff;
     margin: 0px 3px 0px 0px;
     line-height: 55px;
+}
+/* 찾기 및 회원 가입 */
+.find-login-wrap {
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* 찾기 및 회원가입 글자를 희미하게 */
+.find-login-wrap a {
+    color: rgb(150,150,150);
+}
+/* 아이디 찾기 */
+.find-id {
+    margin: 3px;
+    font-size: 14px;
+    border-left: 1px solid gainsboro;
+}
+/* 비밀번호 찾기 */
+.find-pw {
+    margin: 3px;
+    font-size: 14px;
+    border-right: 1px solid gainsboro;
+}
+/* 회원 가입 */
+.sign-up {
+    margin: 3px;
+    font-size: 14px;
+}
+/* 저작권 표시 */
+footer {
+    display: block;
+}
+/* 가로 800px 이상일때 */
+@media(min-width: 800px)
+{
+    .main {
+        width: 460px;
+        margin: auto;
+    }
 }
